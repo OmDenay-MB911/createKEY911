@@ -10,12 +10,15 @@ Source Bye Om Denay
 
 
 Install beberapa komponen
-pkg install wget
+apt update && apt upgrade
+pkg update && pkg upgrade
+pkg install nano
 pkg install git
 pkg install python
-https://github.com/OmDenay-MB911/createKEY911
+git clone https://github.com/OmDenay-MB911/createKEY911
+cd createKEY911
+python createKEY911.py
 
-masukan perintah ambil file
 
 
 tunggu proses sampai selesai
